@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }],
+  "env": { "NODE_ENV": "production", "C25_AGENT_DEPLOY": "true" },
+  "github": { "silent": true, "autoJobCancelation": true }
+}
